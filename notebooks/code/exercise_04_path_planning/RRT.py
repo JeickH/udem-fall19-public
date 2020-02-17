@@ -57,9 +57,10 @@ class RRT_planner:
             # You can call any of the functions defined lower, or add your own.
 
             # YOUR CODE HERE
-
+            #el grafo? o como definir los nodos disponibles y secciones no transitables
+            #despues iria el algoritmo a* o RTT ese es breve y da como resultado una lista de nodos
             #######
-
+            ##aqui es para mostrar el grafo
             if show_anim and it % 5 == 0:
                 self.draw_graph(random_node)
 
